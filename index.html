@@ -1,162 +1,97 @@
+
+
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Monica Jones</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <header>
-      <h1>Student Bio</h1>
-    </header>
+	<meta charset="UTC-8">
+	<title>Latitude Dashboard</title>
+	<!-- Linking Bootstrap stylesheet-->
+	<!-- Latest compiled and minified CSS -->
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+
+
+	<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    </div>
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-    body {margin:25px;}
-    
-    div.polaroid {
-      width: 80%;
-      background-color: white;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      margin-bottom: 25px;
-    }
-    
-    div.container {
-      text-align: center;
-      padding: 10px 20px;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <h2>Welcome to my Sample Webpage</h2>
-    
-    <div class="polaroid">
-     
-      <div class="container">
-      <p>Twitter Famous</p>
-
-      <main class="container">
-        <section id="main-bio">
-          <section id="figure">
-            <h2 id="bio-name">Monica</h2>
-            <img id"bio-image" src ="https://pbs.twimg.com/profile_images/659689106755186688/XAIlrnPl_400x400.jpg" alt="Monica in Twitter" style="width:40%">
-          </section>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
-        </section>
-    
-        <aside id="contact-info">
-          <h2>Contact Info</h2>
-          <ul>
-            <li><strong>Email:</strong> <a href="#">monrjones@gmail.com</a></li>
-            <li><strong>Github:</strong> <a href="#">https://www.github.com/monrjones</a></li>
-            <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+    <!--nav link and drop down -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="datapage.html">Data</a></li>
+        <li><a href="comparisons.html">Comparison</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="maxtemp.html">Max Temperature</a></li>
+            <li><a href="humid.html">Humidity</a></li>
+            <li><a href="Clouds.html">Cloudiness</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="windspeed.html">Wind Speed</a></li>
           </ul>
-        </aside>
-      </main>
-
-      <nav class="navbar">
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
         </li>
       </ul>
-    </nav>
-    <header class="header">
-      <h1>Welcome</h1>
-    </header>
-    <main>
-      <section class="posts">
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-      </section>
-    </main>
-      </div>
     </div>
-   
+  </div>
+</nav>
 
-   
-    
-      
-    
-    
-    </body>
-    </html>
-    
+<div class="container">
+	<div class="row">
+     <div class="col-md-1"></div>  
+	   <div class="col-md-6">
+      <h1>Summary:Latitude vs. X</h1>
+	    <img src="Fig1.png" width="200px" height="150px">
+	    <p>The purpose of this project is to analysis how the weather changes as one travels closer to the equator. To accomplish our analysis, we used the Open Weather API and the CitiPy Python Library to randomly pull 500 cities from around the world to create our dataset. </p>
+	    <p>After we assembled our data, we used the Pandas and Matplotlib Python libraries to analyze our data set. Our four dependent variables were: max temperature, humidity, cloudiness, and wind speed. This dashboard shows the source data and the visualizations based on our four dependent variables. We also explain the trends that is shown in our visualizations</p> 
+     </div>    
+	   <div class="col-md-4 sidebar">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Visualizations</h1>
+          </div>
+        </div>
+       <div class="row">
 
+          <div class="col-md-3">    
+	           <a href="maxtemp.html">Max Temperature<img src="Fig1.png" width="200px" height="150px"></a>
+          </div>
+          <div class="col-md-3"></div>
+        
+          <div class="col-md-3">  
+	           <a href="humid.html">Humidity<img src="Fig2.png" width="200px" height="150px"></a>
+          </div>
+          <div class="col-md-3"></div>  
+       </div>   
+       <div class ="row"> 
+          
+          <div class="col-md-3">  
+            <a href="Clouds.html">Cloudiness<img src="Fig3.png" width="200px" height="150px"></a>
+          </div>
+          <div class="col-md-3"></div>
 
-
-
-  <table style="width:20%">
-      <tr>
-        <th>Books</th>
-        <th>Movies</th> 
-        <th>Games</th>
-      </tr>
-      <tr>
-        <td>The Help</td>
-        <td>National Treasure</td> 
-        <td>Monopoly</td>
-      </tr>
-      <tr>
-        <td>Jane Eyre</td>
-        <td>Remember the Titans</td> 
-        <td>I Declare War</td>
-      </tr>
-    </table>
-
-</body>
-
-</html>
+          <div class="col-md-3">     
+            <a href="windspeed.html">Wind Speed<img src="Fig4.png" width="200px" height="150px"></a>
+          </div>
+          <div class="col-md-3"></div>
+        </div>    
+     </div>         
+    <div class="col-md-1"></div>
+  </div>      
+</div>	 	
+</body>	
+<html>
